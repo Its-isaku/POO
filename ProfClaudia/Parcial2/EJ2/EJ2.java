@@ -2,7 +2,7 @@
 import  java.util.ArrayList;
 import java.util.Scanner;
 
-public class EJ3 
+public class EJ2 
 {
     public static void main(String[] args) 
     {

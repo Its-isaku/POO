@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 // Clase principal
-public class EJ2 
+public class EJ1 
 {
     //Metodos
     public static String CapturaTexto()
