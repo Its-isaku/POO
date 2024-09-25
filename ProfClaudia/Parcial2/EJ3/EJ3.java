@@ -11,7 +11,7 @@ public class EJ3
     public static void main(String[] args) 
     {
         // se crea un scanner para obtener respuestas del usuario
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         // Se crean variables
         HashMap<String, List<Float>> calificaciones = new HashMap<>();
         String Clave = " ";
