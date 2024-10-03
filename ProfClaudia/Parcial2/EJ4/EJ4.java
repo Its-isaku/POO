@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EJ5 {
+public class EJ4 {
     public static void main(String[] args) 
     {
         // Variables
@@ -9,14 +9,14 @@ public class EJ5 {
 
         // Crear un objeto Persona con datos predeterminados
         Persona Mexicano = new Persona("dannaly", "chavez", "astorga", "19", "06", "04", "BAJA CALIFORNIA", 'M');
-        Persona persona = null; // Aqui se guardara el objeto Persona ingresado por el usuario
+        Persona persona = null;
         
         do {
             menu();
             System.out.print("Ingrese la opcion deseada: ");
             opc = scanner.nextInt();
             System.out.println();
-            scanner.nextLine(); // Consumir el salto de linea restante
+            scanner.nextLine(); 
 
             switch (opc) 
             {
@@ -34,7 +34,7 @@ public class EJ5 {
                 }
                 case 3 -> 
                 {
-                    // Opcion para generar CURP y RFC usando el objeto con datos predeterminados
+                    // Opcion para generar CURP y RFC usando el objeto
                     System.out.println("Generando CURP y RFC para los datos del Objeto:\n");
                     System.out.println("Nombre: " + Mexicano.nombre + "\n");
                     String curp = Mexicano.generarCURP();
@@ -52,7 +52,7 @@ public class EJ5 {
     // Metodo para mostrar el menu
     public static void menu() 
     {
-        System.out.println("\n||------------------Menu para usuario------------------||");
+        System.out.println("\n||----------------Menu para usuario--------------------||");
         System.out.println("||                                                     ||");
         System.out.println("|| 1 -> Curp                                           ||"); 
         System.out.println("|| 2 -> RFC                                            ||"); 
@@ -61,7 +61,7 @@ public class EJ5 {
         System.out.println("||                                                     ||");
         System.out.println("|| 3 -> Generar Curp y Rfc de objeto                   ||");
         System.out.println("||                                                     ||");
-        System.out.println("||--------------------Otras opciones-------------------||");
+        System.out.println("||-------------------Otras opciones--------------------||");
         System.out.println("||                                                     ||");
         System.out.println("|| 9 -> Salir                                          ||");
         System.out.println("||                                                     ||"); 
