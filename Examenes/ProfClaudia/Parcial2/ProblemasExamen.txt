@@ -1,0 +1,21 @@
+*Ejercicio 1: Clase "Persona" (33.33 pts)
+1. Crea una clase llamada ‘Persona’ con los siguientes atributos: ‘nombre’, ‘edad’, y ‘género’.
+2. Implementa un constructor que inicialice estos atributos.
+3. Crea un método ‘mostrarInformacion()’ que imprima el nombre, la edad y el género de la persona.
+4. Comenta el código explicando cada parte.
+5. En el ‘main’, instancia un objeto de la clase ‘Persona’ y llama al método ‘mostrarInformacion()’.
+
+*Ejercicio 5: Clase "Producto" (33.33 pts)
+1.  Crea una clase llamada Producto con los atributos nombre y precio.
+2.  Implementa un constructor que inicialice estos atributos.
+3.  Crea un método calcularDescuento(double porcentaje) que calcule y devuelva el precio del producto después de aplicar un descuento.
+4.  Comenta el código explicando cómo funciona el cálculo del descuento.
+5.  En el main, instancia un objeto de la clase Producto, aplica el descuento usando calcularDescuento() y muestra el precio final.
+
+*Ejercicio 6: Clase "Empleado" (33.33 pts)
+1.  Crea una clase llamada Empleado con los atributos nombre y salario.
+2.  Implementa un constructor que inicialice el nombre y el salario.
+3.  Crea un método aumentarSalario(double porcentaje) que aumente el salario del empleado en un porcentaje dado.
+4.  Crea un método mostrarSalario() que imprima el salario actual del empleado.
+5.  Comenta el código explicando cómo se calcula el aumento de salario.
+6.  En el main, instancia un objeto de la clase Empleado, aumenta su salario y muestra el nuevo salario.

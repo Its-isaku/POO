@@ -6,7 +6,7 @@ import time  # Importa el módulo correcto
 letras = string.ascii_letters + " "
 resultado = ""
 
-for letra in "Hola Mundo":
+for letra in "Aaron almeraz":
     while True:
         L = choice(letras)
         print(resultado + L)
