@@ -19,3 +19,33 @@
 4.  Crea un método mostrarSalario() que imprima el salario actual del empleado.
 5.  Comenta el código explicando cómo se calcula el aumento de salario.
 6.  En el main, instancia un objeto de la clase Empleado, aumenta su salario y muestra el nuevo salario.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Putos extra
+
+
+*Ejercicio 2: Clase "Círculo" (33.33 pts)
+1. Crea una clase llamada ‘Círculo’ con un atributo ‘radio’.
+2. Implementa un constructor que inicialice el radio.
+3. Crea métodos ‘calcularArea()’ y ‘calcularPerimetro()’ que devuelvan el área y el perímetro del círculo, respectivamente.
+4. Comenta el código explicando el propósito de cada método.
+5. En el main, instancia un objeto de la clase ‘Círculo’ y llama a los métodos ‘calcularArea()’ y ‘calcularPerimetro()’.
+INFORMACIÓN DE APOYO:
+A=π⋅r^2
+P=2⋅π⋅r
+
+*Ejercicio 3: Clase "CuentaBancaria" (33.33 pts)
+1. Crea una clase llamada ‘CuentaBancaria’ con los atributos ‘saldo’ y ‘titular’.
+2. Implementa un constructor que inicialice ambos atributos.
+3. Crea los métodos ‘depositar(double monto)’ y ‘retirar(double monto)’ que permitan modificar el saldo.
+4. Comenta el código explicando el funcionamiento de cada método.
+5. En el ‘main’, instancia un objeto de la clase ‘CuentaBancaria’ y realiza operaciones de depósito y retiro.
+
+*Ejercicio 4: Clase "Auto" (33.33 pts)
+1. Crea una clase llamada ‘Auto’ con los atributos ‘marca’, ‘modelo’, y ‘velocidad’.
+2. Implementa un constructor que inicialice ‘marca’ y ‘modelo’, y que por defecto la ‘velocidad’ sea 0.
+3. Crea los métodos ‘acelerar(int incremento)’ para aumentar la velocidad, ‘frenar(int decremento)’ para reducirla, y ‘mostrarEstado()’ para
+mostrar la marca, el modelo y la velocidad actual.
+4. Comenta el código explicando cada uno de los métodos.
+5. En el ‘main’, instancia un objeto de la clase ‘Auto’ y usa los métodos ‘acelerar()’, ‘frenar()’ y ‘mostrarEstado()’.
