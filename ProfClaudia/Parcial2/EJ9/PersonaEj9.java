@@ -1,8 +1,11 @@
 public class PersonaEj9
 {
     public String Nombre;
+
     private int Edad;
+
     protected String Direccion;
+
     String Telefono;
     
     public int getEdad() { return Edad; }
@@ -12,7 +15,7 @@ public class PersonaEj9
         if(Edad > 0) 
             this.Edad = Edad;
         else
-            System.out.println("la edad no puedw ser negativa");
+            System.out.println("la edad no puede ser negativa");
     }
     
     //? Metodos
