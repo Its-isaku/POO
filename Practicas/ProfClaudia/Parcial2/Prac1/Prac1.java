@@ -124,4 +124,6 @@ public class Prac1
         System.out.println("||----------------------------------||\n");
     }
 
+    
+
 }
