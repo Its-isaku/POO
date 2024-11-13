@@ -1,3 +1,13 @@
+''' 
+#? Nombre: Almeraz Landeros isai Magdaleno
+#? Grupo: 544
+#? Profesor: Emmanuel Gomez
+#? fecha: 8 - nov - 2024
+
+#! practica 3 -> Clases y objetos
+
+'''
+
 class Banco:
     def __init__(self, titular, saldo, nip):
         """
