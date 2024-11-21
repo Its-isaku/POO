@@ -1,5 +1,5 @@
 //? clase abstracta
-public abstract class RobotBase 
+public abstract class RobotBase implements RobotInterface
 {
     //? Iniciializar robot
     public abstract void Inicializar();
@@ -14,6 +14,7 @@ public abstract class RobotBase
     public abstract void Servir();
 
     //? Mostrar estado
+    @Override
     public void MostrarEstado(String estado)
     {
         System.out.println(this.getClass().getSimpleName() + ": " + estado);
